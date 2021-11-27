@@ -1,0 +1,31 @@
+@import url("../style/font-face.css");
+
+.font-open-sans-bold{
+    font: 'Open-Sans-Bold';
+}
+
+.Open-Sans-Regular {
+    font: 'Open-Sans-Regular'; 
+}
+ /* work-card */
+.work-card {
+    box-shadow: 0 0 30px 20px rgba(0,0,0,0.2);
+    padding: 1em 5em;
+    margin: 2em;
+}
+.work-card:hover {
+    box-shadow: 0 0 100px rgba(0,0,0,0.5);
+}
+.work-card>h4, .work-card>a {
+    margin: .3em 0;
+}
+
+.work-card>a {
+    color: #696144;
+}
+.work-card>a:visited {
+    color: #84837E;
+}
+html{
+    scroll-behavior: smooth;
+ }

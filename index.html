@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Установка фавиконов -->
+    <link rel="icon" href="/img/icon/favicon.svg">
+    <link rel=”mask-icon” href=”/img/icon/favicon.svg” color=”#000000">
+    <link rel="apple-touch-icon" href="img/icon/Apple-180x180.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="manifest.json">
+    <!-- Подключние бутстрап -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <title>Портфолио</title>
+
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar  navbar-expand-md navbar-light container">
+            <h1 class="navbar-brand">Андрей К.</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-sm-end" id="navbarSupportedContent">
+                <ul class="navbar-nav Open-Sans-Regular mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Обо мне</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#works">Роботы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#write">Написать мне</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container d-flex flex-column text-center" id="about">
+        <img class="img-fluid mx-auto" src="../img/photo.png" alt="Фото человека" srcset="../img/photo.png 1x">
+        <span>Андрей Коробка</span>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <h3 id="works">Работы</h3>
+        </div>
+        <div class="container mt-5 d-flex flex-wrap">
+            <div class="work-card col text-center">
+                <h4 class="p-4">Большой театр</h4>
+                <a class="Open-Sans-Regular" href="#">Ссылка</a>
+            </div>
+            <div class="work-card col text-center">
+                <h4 class="p-4">Визитка</h4>
+                <a class="Open-Sans-Regular" href="#">Ссылка</a>
+            </div>
+            <div class="work-card col text-center">
+                <h4 class="p-4">Контакты</h4>
+                <a class="Open-Sans-Regular" href="#">Ссылка</a>
+            </div>
+            <div class="work-card col text-center">
+                <h4 class="p-4">Икеа</h4>
+                <a class="Open-Sans-Regular" href="#">Ссылка</a>
+            </div>
+            <div class="work-card col text-center">
+                <h4 class="p-4">Е-батюшка</h4>
+                <a class="Open-Sans-Regular" href="#">Ссылка</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-sm-flex justify-content-lg-end justify-content-center">
+        <form action="" method="get" class="">
+            <label for="messageArea" class="form-label mb-3">
+                <h3 id="write">Написать мне</h3>
+            </label>
+            <textarea name="submitMessage" id="messageArea" class="form-control" cols="40" rows="7" placeholder="Оставь мне сообщение и я обязательно на него оствечу"></textarea>
+            <button class="btn btn-dark mt-3">Отправить мне</button>
+        </form>
+    </div>
+
+    <footer class="container">
+        <h3 id="contacts">Контакты</h3>
+        <div class="row m-3">
+            <h5>Андрей Коробка</h5>
+            <div class="col-12 col-md-4 col-lg-3 mt-2">
+                <a href="https://www.instagram.com/_size_inside_/" target="_blank" rel="noopener noreferrer"><img src="./img/instIcon.png" alt="Градиентная иконка инстаграмм"></a>
+                <a href="https://vk.com/korobokx" target="_blank" rel="noopener noreferrer"><img src="./img/VKIcon.png" alt="Градиентная иконка вконтакте"></a>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-6 mt-2">
+                <span class="font-open-sans-bold ">Tel: <a href="tel:+89284326502">+79284326502</a></span> <br>
+                <span class="font-open-sans-bold ">E-mail: <a href="mailto:gertyuser@ya.ru">gertyuser@ya.ru</a></span>
+            </div> 
+            <div class="col-12 col-md-4 col-lg-3 mt-2">
+                <span class="font-open-sans-bold"><img src="./img/location.png" alt="Значок геолокации градиент" width="30px"> Россия, Краснодар</span> <br>
+                <span class="font-open-sans-bold">© Создано: Андрей К.</span>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
