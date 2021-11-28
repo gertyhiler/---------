@@ -12,6 +12,8 @@
     box-shadow: 0 0 30px 20px rgba(0,0,0,0.2);
     padding: 1em 5em;
     margin: 2em;
+    display: flex;
+    flex-direction: column;
 }
 .work-card:hover {
     box-shadow: 0 0 100px rgba(0,0,0,0.5);
