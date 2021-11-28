@@ -76,12 +76,17 @@
     </div>
 
     <div class="container d-sm-flex justify-content-lg-end justify-content-center">
-        <form action="" method="get" class="">
+        <form action="https://formspree.io/f/mzbopgkl" method="post" class="write-me">
             <label for="messageArea" class="form-label mb-3">
                 <h3 id="write">Написать мне</h3>
             </label>
-            <textarea name="submitMessage" id="messageArea" class="form-control" cols="40" rows="7" placeholder="Оставь мне сообщение и я обязательно на него отвечу"></textarea>
-            <button class="btn btn-dark mt-3">Отправить мне</button>
+            <br>
+            <label>
+                Твоя почта:
+                <input class="form-label" type="email" name="_replyto">
+              </label>
+            <textarea name="message" id="messageArea" class="form-control" cols="40" rows="7" placeholder="Оставь мне сообщение и я обязательно на него отвечу"></textarea>
+            <button type="submit" class="btn btn-dark mt-3">Отправить мне</button>
         </form>
     </div>
 
