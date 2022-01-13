@@ -50,4 +50,5 @@ body {
 .form-label {
     border-radius: 2px;
     border: 1px dotted #000; 
+    padding: .5em;
 }
