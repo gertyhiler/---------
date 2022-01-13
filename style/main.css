@@ -1,11 +1,20 @@
 @import url("../style/font-face.css");
 
-.font-open-sans-bold{
-    font: 'Open-Sans-Bold';
+html {
+    scroll-behavior: smooth;
 }
 
-.Open-Sans-Regular {
-    font: 'Open-Sans-Regular'; 
+body {
+    font-family: 'Open-Sans', Arial, Helvetica, sans-serif;
+}
+
+.image__header {
+    margin-bottom: 1em;
+}
+
+.header_name {
+    font-size: 1.3em;
+    font-weight: normal;
 }
  /* work-card */
 .work-card {
@@ -15,19 +24,30 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 490px) {
+    .work-card {
+        margin: 0 0 2em 0;
+    }
+}
+
 .work-card:hover {
     box-shadow: 0 0 100px rgba(0,0,0,0.5);
 }
-.work-card>h4, .work-card>a {
+
+.work-card h4, .work-card a {
     margin: .3em 0;
 }
 
-.work-card>a {
+.work-card a {
     color: #696144;
 }
-.work-card>a:visited {
+
+.work-card a:visited {
     color: #84837E;
 }
-html{
-    scroll-behavior: smooth;
- }
+
+.form-label {
+    border-radius: 2px;
+    border: 1px dotted #000; 
+}
