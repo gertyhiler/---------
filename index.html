@@ -44,10 +44,7 @@
     </div>
 
     <div class="container-fluid">
-        <div class="container">
-            <h3 id="works">Работы</h3>
-        </div>
-        <div class="container mt-5 d-flex flex-wrap">
+        <div id="works" class="container mt-5 d-flex flex-wrap">
             <div class="work-card col text-center">
                 <h4 class="p-4">
                     Большой театр
@@ -81,7 +78,7 @@
         </div>
     </div>
 
-    <div class="container d-sm-flex justify-content-lg-end justify-content-center">
+    <div class="container d-sm-flex justify-content-lg-end justify-content-center submit_me">
         <form action="https://formspree.io/f/mzbopgkl" method="post" class="write-me">
             <label for="messageArea" class="mb-3">
                 <h3 id="write">Написать мне</h3>
@@ -96,22 +93,25 @@
         </form>
     </div>
 
-    <footer class="container">
-        <h3 id="contacts" class="mt-4">Контакты</h3>
-        <div class="row m-3 d-flex text-center">
+    <footer id="contacts" class=" footer">
+        <div class="row m-3 d-flex text-center footer_wrapper">
             <h5>Андрей Коробка</h5>
+            <span>© Создано: Андрей К.</span>
             <div class="col-12 col-md-4 col-lg-3 mt-2">
-                <a href="https://www.instagram.com/_size_inside_/" target="_blank" rel="noopener noreferrer"><img src="./img/instIcon.png" alt="Градиентная иконка инстаграмм"></a>
-                <a href="https://vk.com/korobokx" target="_blank" rel="noopener noreferrer"><img src="./img/VKIcon.png" alt="Градиентная иконка вконтакте"></a>
+                <a class="link_social_media logo_link_inst" href="https://www.instagram.com/_size_inside_/" target="_blank" rel="noopener noreferrer"></a>
+                <a class="link_social_media logo_link_vk" href="https://vk.com/korobokx" target="_blank" rel="noopener noreferrer"></a>
             </div>
 
             <div class="col-12 col-md-4 col-lg-6 mt-2">
-                <span>Tel: <a href="tel:+89284326502">+79284326502</a></span> <br>
-                <span>E-mail: <a href="mailto:gertyuser@ya.ru">gertyuser@ya.ru</a></span>
+                <span>Tel: <a class="link" href="tel:+89284326502">+79284326502</a></span> <br>
+                <span>E-mail: <a class="link" href="mailto:gertyuser@ya.ru">gertyuser@ya.ru</a></span>
             </div> 
             <div class="col-12 col-md-4 col-lg-3 mt-2">
-                <address><img src="./img/location.png" alt="Значок геолокации градиент" width="30px"> Россия, Краснодар</address> <br>
-                <span>© Создано: Андрей К.</span>
+                <address>
+                    <img src="./img/location.png" alt="Значок геолокации градиент" width="20px"> 
+                    Россия, Краснодар
+                </address>
+                
             </div>
         </div>
     </footer>
