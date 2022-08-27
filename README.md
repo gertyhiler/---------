@@ -1,2 +1,2 @@
 # gertyhiler.github.io
-## Мое портфолио на гитхабе
+## Мое портфолио в разработке - http://andrew.webmaster.tilda.ws

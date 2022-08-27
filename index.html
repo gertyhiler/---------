@@ -1,122 +1,27 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Установка фавиконов -->
-    <link rel="icon" href="/img/icon/favicon.svg">
-    <link rel="apple-touch-icon" href="img/icon/Apple-180x180.png">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="manifest" href="manifest.json">
-    <!-- Подключние бутстрап -->
-    <link rel="stylesheet" href="../style/bootstrap.min.css">
-    <link rel="stylesheet" href="../style/main.css">
-    <title>Портфолио</title>
-    <!-- Yandex.Metrika -->
-    <script src="../js/ya.metrica.js"></script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/86681754" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../img/icon/favicon.svg">
+  <link rel="apple-touch-icon" href="../img/icon/Apple-180x180.png">
+  <link rel="stylesheet" href="../style/main.css">
+  <title>Портфолио</title>
+  <!-- Yandex.Metrika -->
+  <script src="../js/ya.metrica.js"></script>
+  <noscript>
+    <div>
+      <img src="https://mc.yandex.ru/watch/86681754" style="position:absolute; left:-9999px;" alt="" />
+    </div>
+  </noscript>
 </head>
-<body>
-    
-    <header>
-        <nav class="navbar  navbar-expand-md navbar-light container">
-            <h1 class="navbar-brand">Андрей К.</h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-sm-end" id="navbarSupportedContent">
-                <ul class="navbar-nav Open-Sans-Regular mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">Обо мне</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#works">Роботы</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#write">Написать мне</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacts">Контакты</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    
-    <div class="container d-flex flex-column text-center image__header" id="about">
-        <img class="img-fluid mx-auto image__header" src="../img/photo.png" alt="Фото человека" srcset="../img/photo.png 1x">
-        <span class="header_name">Андрей Коробка</span>
-    </div>
-
-    <div class="container-fluid">
-        <div id="works" class="container mt-5 d-flex flex-wrap">
-            <div class="work-card col text-center">
-                <h4 class="p-4">
-                    Большой театр
-                </h4>
-                <a href="https://gertyhiler.github.io/theatr-spb/">Перейти</a>
-            </div>
-            <div class="work-card col text-center">
-                <h4 class="p-4">
-                    Визитка
-                </h4>
-                <a href="https://gertyhiler.github.io/VisitCard/">Перейти</a>
-            </div>
-            <div class="work-card col text-center">
-                <h4 class="p-4">
-                    Е-батюшка
-                </h4>
-                <a href="https://gertyhiler.github.io/preacher/">Перейти</a>
-            </div>
-            <div class="work-card col text-center">
-                <h4 class="p-4">
-                    Контакты
-                </h4>
-                <a href="#">Разработка...</a>
-            </div>
-            <div class="work-card col text-center">
-                <h4 class="p-4">
-                    Икеа
-                </h4>
-                <a href="#">Разработка...</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="container d-sm-flex justify-content-lg-end justify-content-center submit_me">
-        <form action="https://formspree.io/f/mzbopgkl" method="post" class="write-me">
-            <label for="messageArea" class="mb-3">
-                <h3 id="write">Написать мне</h3>
-            </label>
-            <br>
-            <label>
-                <span class="mail_text_lebel_header">Твоя почта:</span> 
-                <input class="form-label" type="email" name="_replyto" placeholder="mail@example.com">
-              </label>
-            <textarea name="message" id="messageArea" class="form-control" cols="40" rows="7" placeholder="Оставь мне сообщение и я обязательно на него отвечу"></textarea>
-            <button type="submit" class="btn btn-dark mt-3">Отправить мне</button>
-        </form>
-    </div>
-
-    <footer id="contacts" class=" footer">
-        <div class="row m-3 d-flex text-center footer_wrapper">
-            <h5>Андрей Коробка</h5>
-            <span>© Создано: Андрей К.</span>
-            <div class="col-12 col-md-4 col-lg-3 mt-2">
-                <a class="link_social_media logo_link_inst" href="https://www.instagram.com/_size_inside_/" target="_blank" rel="noopener noreferrer"></a>
-                <a class="link_social_media logo_link_vk" href="https://vk.com/korobokx" target="_blank" rel="noopener noreferrer"></a>
-            </div>
-
-            <div class="col-12 col-md-4 col-lg-6 mt-2">
-                <span>Tel: <a class="link" href="tel:+89284326502">+79284326502</a></span> <br>
-                <span>E-mail: <a class="link" href="mailto:gertyuser@ya.ru">gertyuser@ya.ru</a></span>
-            </div> 
-            <div class="col-12 col-md-4 col-lg-3 mt-2">
-                <address>
-                    <img src="./img/location.png" alt="Значок геолокации градиент" width="20px"> 
-                    Россия, Краснодар
-                </address>
-                
-            </div>
-        </div>
-    </footer>
-
-
-    <script src="../js/bootstrap.bundle.min.js"></script>
+<body> 
+  <header class="header">
+    <h1 class="header__notification">
+      Страница в разработке...
+    </h1>
+    <a href="http://andrew.webmaster.tilda.ws">Предварительная версия на tilda</a>
+  </header>
 </body>
 </html>
