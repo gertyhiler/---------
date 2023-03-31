@@ -4,34 +4,380 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="../img/icon/favicon.svg">
-  <link rel="apple-touch-icon" href="../img/icon/Apple-180x180.png">
-  <link rel="stylesheet" href="../style/main.css">
-  <title>Портфолио</title>
-  <!-- Yandex.Metrika -->
-  <script src="../js/ya.metrica.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://googletagmanager.com">
+  <meta name="title" content="Портфолио Коробка Андрей">
+  <meta name="description" content="Сайт со списком всех моих проектов">
+  <meta name="keywords" content="Портфолио, фронтенд, react, redux, javascript, css, bootstrap, frontend, frontend developer">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Russian">
+  <meta name="author" content="Андрей Коробка">
+  <link rel="icon" href="favicon.ico" />
+  <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./img/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./img/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./img/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./img/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./img/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./img/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./img/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./img/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./img/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./img/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="msapplication-TileColor" content="#64748B" />
+    <meta
+      name="msapplication-TileImage"
+      content="./img/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#64748B" />
+    <meta property="og:title" content="Портфолио Коробка Андрей">
+  <meta property="og:site_name" content="andrew-web.ru">
+  <meta property="og:url" content="https://andrew-web.ru">
+  <meta property="og:description" content="Сайт со списком всех моих проектов">
+  <meta property="og:type" content="website">
+  <title>Портфолио Коробка Андрей</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    html {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+  <script src="./js/ya.metrica.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2004SZCNZX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-2004SZCNZX');
+  </script>
+</head>
+<body class="dark:bg-gray-800 px-2 md:px-6">
   <noscript>
     <div>
       <img src="https://mc.yandex.ru/watch/86681754" style="position:absolute; left:-9999px;" alt="" />
     </div>
   </noscript>
-
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2004SZCNZX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2004SZCNZX');
-</script>
-</head>
-<body> 
-  <header class="header">
-    <h1 class="header__notification">
-      Страница в разработке...
-    </h1>
-    <a href="https://clck.ru/32n7nF">Предварительная версия на tilda</a>
+  <header class="rounded-b-xl bg-slate-200 dark:bg-slate-500 py-10">
+    <div class="continer flex justify-center items-center">
+      <div class="flex gap-3">
+        <img src="./img/36032455.jpeg" alt="Фото профиля" class="rounded-full h-24">
+        <div>
+          <h1 class=" text-2xl xl:text-3xl text-gray-800 dark:text-gray-300">Андрей Коробка</h1>
+          <div class="inline-flex items-center justify-center w-full py-2">
+            <ul class="flex gap-4">
+              <li class="header__item">
+                <a target="_blank" href="https://github.com/gertyhiler" class="header__link">
+                  <img src="./img/github.svg" alt="Логотип гитхаб" class="header__image">
+                </a>
+              </li>
+              <li class="header__item">
+                <a target="_blank" href="https://t.me/bananawinst" class="header__link">
+                  <img src="./img/telegram-1.svg" alt="Логотип телеграмма" class="header__image">
+                </a>
+              </li>
+              <li class="header__item">
+                <a target="_blank" href="mailto:tryuserrus@gmail.com" class="header__link">
+                  <img src="./img/gmail-icon.svg" alt="Логотип почты" class="header__image">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
+  <main>
+    <section class="work">
+      <ul class="work__list">
+        <li class="work__item">
+          <div class="work__preview bg-[url('../img/projects/pomodoro.jpeg')]">
+
+          </div>
+          <div class="work__content-wrapper">
+            <h2 class="work__headline">🍅🕰️ Pomodoro_box</h2>
+              <ul class="work__view-list">
+                <li class="inline-flex"><a target="_blank" class="work__link" href="https://github.com/gertyhiler/Pomodoro_box"><img src="./img/github.svg" alt="github view"><span>Git</span></a></li>
+              </ul>
+            <p class="work__description">Таймер по технике помидорок со статистикой</p>
+            <ul class="work__technology-list">
+              <li><img class="work__technology-image" src="./img/html.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/css.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/tailwindcss.svg" alt="tailwindcss"></li>
+              <li><img class="work__technology-image" src="./img/react.svg" alt="react"></li>
+              <li><img class="work__technology-image" src="./img/redux.svg" alt="redux"></li>
+            </ul>
+          </div>
+        </li>
+        <li class="work__item">
+          <div class="work__preview bg-[url('../img/projects/reddit.jpeg')]"></div>
+          <div class="work__content-wrapper">
+            <h2 class="work__headline">Reddit</h2>
+              <ul class="work__view-list">
+                <li class="inline-flex"><a class="work__link" href="https://github.com/gertyhiler/reddit"><img src="./img/github.svg" alt="github view"><span>Git</span></a></li>
+              </ul>
+            <p class="work__description">Клиентское приложение reddit</p>
+            <ul class="work__technology-list">
+              <li><img class="work__technology-image" src="./img/html.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/css.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/react.svg" alt="react"></li>
+              <li><img class="work__technology-image" src="./img/redux.svg" alt="redux"></li>
+            </ul>
+          </div>
+        </li>
+        <li class="work__item">
+          <div class="work__preview bg-[url('../img/projects/auth.jpeg')]"></div>
+          <div class="work__content-wrapper">
+            <h2 class="work__headline">🔐 Auth-JWT</h2>
+              <ul class="work__view-list">
+                <li class="inline-flex"><a class="work__link" href="https://github.com/gertyhiler/Auth-JWT"><img src="./img/github.svg" alt="github view"><span>Git</span></a></li>
+              </ul>
+            <p class="work__description">Регистрация, авторизация пользователей с использованием пар токенов</p>
+            <ul class="work__technology-list">
+              <li><img class="work__technology-image" src="./img/html.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/css.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/react.svg" alt="react"></li>
+              <li><img class="work__technology-image" src="./img/redux.svg" alt="redux"></li>
+              <li><img class="work__technology-image" src="./img/express-109.svg" alt="express"></li>
+              <li><img class="work__technology-image" src="./img/mongodb-icon-1.svg" alt="mongodb"></li>
+            </ul>
+          </div>
+        </li>
+        <li class="work__item">
+          <div class="work__preview bg-[url('../img/projects/lead.jpeg')]"></div>
+          <div class="work__content-wrapper">
+            <h2 class="work__headline">🧑‍💻 Лидерборд</h2>
+              <ul class="work__view-list">
+                <li class="inline-flex"><a class="work__link" href="https://github.com/gertyhiler/lead"><img src="./img/github.svg" alt="github view"><span>Git</span></a></li>
+                <li class="inline-flex"><a class="work__link" href="https://andrew-web.ru/lead/?utm_company=portfolio"><img src="./img/website.svg" alt="website view" class="w-6"><span>Site</span></a></li>
+              </ul>
+            <p class="work__description">Лидерборд для команды Тинькофф</p>
+            <ul class="work__technology-list">
+              <li><img class="work__technology-image" src="./img/html.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/css.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/react.svg" alt="react"></li>
+            </ul>
+          </div>
+        </li>
+        <li class="work__item">
+          <div class="work__preview bg-[url('../img/projects/crm.jpeg')]"></div>
+          <div class="work__content-wrapper">
+            <h2 class="work__headline">🤵‍♂️ CRM</h2>
+              <ul class="work__view-list">
+                <li class="inline-flex"><a target="_blank" class="work__link" href="https://github.com/gertyhiler/crm-skb"><img src="./img/github.svg" alt="github view"><span>Git</span></a></li>
+              </ul>
+            <p class="work__description">CRM система</p>
+            <ul class="work__technology-list">
+              <li><img class="work__technology-image" src="./img/html.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/css.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/js.svg" alt="JavaScript"></li>
+            </ul>
+          </div>
+        </li>
+        <li class="work__item">
+          <div class="work__preview bg-[url('../img/projects/todoapp.jpeg')]"></div>
+          <div class="work__content-wrapper">
+            <h2 class="work__headline">📋 TODO App</h2>
+              <ul class="work__view-list">
+                <li class="inline-flex"><a class="work__link" href="https://github.com/gertyhiler/TODO-App"><img src="./img/github.svg" alt="github view"><span>Git</span></a></li>
+              </ul>
+            <p class="work__description">Общение клиента с сервером в виде приложения списка дел для семьи</p>
+            <ul class="work__technology-list">
+              <li><img class="work__technology-image" src="./img/html.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/bootstrap-5-1.svg" alt="bootstrap"></li>
+              <li><img class="work__technology-image" src="./img/js.svg" alt="JavaScript"></li>
+            </ul>
+          </div>
+        </li>
+        <li class="work__item">
+          <div class="work__preview bg-[url('../img/projects/game.jpeg')]"></div>
+          <div class="work__content-wrapper">
+            <h2 class="work__headline">🎮 Игра в пары</h2>
+              <ul class="work__view-list">
+                <li class="inline-flex"><a class="work__link" href="https://github.com/gertyhiler/game"><img src="./img/github.svg" alt="github view"><span>Git</span></a></li>
+                <li class="inline-flex"><a class="work__link" href="https://andrew-web.ru/game/?utm_company=portfolio"><img src="./img/website.svg" alt="website view" class="w-6"><span>Site</span></a></li>
+              </ul>
+            <p class="work__description">Увлекательная игра на время, где вам необходимо найти все пары на поле</p>
+            <ul class="work__technology-list">
+              <li><img class="work__technology-image" src="./img/html.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/bootstrap-5-1.svg" alt="bootstrap"></li>
+              <li><img class="work__technology-image" src="./img/js.svg" alt="JavaScript"></li>
+            </ul>
+          </div>
+        </li>
+        <li class="work__item">
+          <div class="work__preview bg-[url('../img/projects/study.jpeg')]"></div>
+          <div class="work__content-wrapper">
+            <h2 class="work__headline">🧑‍🎓 Таблица студентов</h2>
+              <ul class="work__view-list">
+                <li class="inline-flex"><a class="work__link" href="https://github.com/gertyhiler/study-table"><img src="./img/github.svg" alt="github view"><span>Git</span></a></li>
+                <li class="inline-flex"><a class="work__link" href="https://andrew-web.ru/study-table/?utm_company=portfolio"><img src="./img/website.svg" alt="website view" class="w-6"><span>Site</span></a></li>
+              </ul>
+            <p class="work__description">Интерактивная таблица студентов с возможностью сложной фильтрации</p>
+            <ul class="work__technology-list">
+              <li><img class="work__technology-image" src="./img/html.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/bootstrap-5-1.svg" alt="bootstrap"></li>
+              <li><img class="work__technology-image" src="./img/js.svg" alt="JavaScript"></li>
+            </ul>
+          </div>
+        </li>
+        <li class="work__item">
+          <div class="work__preview bg-[url('../img/projects/articles.jpeg')]"></div>
+          <div class="work__content-wrapper">
+            <h2 class="work__headline">📄 Articles</h2>
+              <ul class="work__view-list">
+                <li class="inline-flex"><a class="work__link" href="https://github.com/gertyhiler/articles"><img src="./img/github.svg" alt="github view"><span>Git</span></a></li>
+                <li class="inline-flex"><a class="work__link" href="https://andrew-web.ru/articles/?utm_company=portfolio"><img src="./img/website.svg" alt="website view" class="w-6"><span>Site</span></a></li>
+              </ul>
+            <p class="work__description">Список статей, которые можно почитать</p>
+            <ul class="work__technology-list">
+              <li><img class="work__technology-image" src="./img/html.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/css.svg" alt="html 5"></li>
+            </ul>
+          </div>
+        </li>
+        <li class="work__item">
+          <div class="work__preview bg-[url('../img/projects/blanchard.jpeg')]"></div>
+          <div class="work__content-wrapper">
+            <h2 class="work__headline">🖼️ blanchard - художественная галерея</h2>
+              <ul class="work__view-list">
+                <li class="inline-flex"><a class="work__link" href="https://github.com/gertyhiler/blanchard"><img src="./img/github.svg" alt="github view"><span>Git</span></a></li>
+                <li class="inline-flex"><a class="work__link" href="https://andrew-web.ru/blanchard/?utm_company=portfolio"><img src="./img/website.svg" alt="website view" class="w-6"><span>Site</span></a></li>
+              </ul>
+            <p class="work__description">Лендинг картинной галереи</p>
+            <ul class="work__technology-list">
+              <li><img class="work__technology-image" src="./img/html.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/css.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/js.svg" alt="JavaScript"></li>
+            </ul>
+          </div>
+        </li>
+        <li class="work__item">
+          <div class="work__preview bg-[url('../img/projects/cld.jpeg')]"></div>
+          <div class="work__content-wrapper">
+            <h2 class="work__headline">📐⚒️ Евклид - проектные системы</h2>
+              <ul class="work__view-list">
+                <li class="inline-flex"><a class="work__link" href="https://github.com/gertyhiler/cld"><img src="./img/github.svg" alt="github view"><span>Git</span></a></li>
+                <li class="inline-flex"><a class="work__link" href="https://andrew-web.ru/cld/?utm_company=portfolio"><img src="./img/website.svg" alt="website view" class="w-6"><span>Site</span></a></li>
+              </ul>
+            <p class="work__description">Лендинг компании по проектированию.</p>
+            <ul class="work__technology-list">
+              <li><img class="work__technology-image" src="./img/html.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/css.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/js.svg" alt="JavaScript"></li>
+            </ul>
+          </div>
+        </li>
+        <li class="work__item">
+          <div class="work__preview bg-[url('../img/projects/3d.jpeg')]"></div>
+          <div class="work__content-wrapper">
+            <h2 class="work__headline">🎲 Skillbox - 3d моделирование</h2>
+              <ul class="work__view-list">
+                <li class="inline-flex"><a class="work__link" href="https://github.com/gertyhiler/bootstrap-practice"><img src="./img/github.svg" alt="github view"><span>Git</span></a></li>
+                <li class="inline-flex"><a class="work__link" href="https://andrew-web.ru/bootstrap-practice/?utm_company=portfolio"><img src="./img/website.svg" alt="website view" class="w-6"><span>Site</span></a></li>
+              </ul>
+            <p class="work__description">Лендинг для курса от Skillbox по 3d моделированию</p>
+            <ul class="work__technology-list">
+              <li><img class="work__technology-image" src="./img/html.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/bootstrap-5-1.svg" alt="bootstrap"></li>
+            </ul>
+          </div>
+        </li>
+        <li class="work__item">
+          <div class="work__preview bg-[url('../img/projects/lagoona.jpeg')]"></div>
+          <div class="work__content-wrapper">
+            <h2 class="work__headline">🌴 Lagoona</h2>
+              <ul class="work__view-list">
+                <li class="inline-flex"><a class="work__link" href="https://github.com/gertyhiler/lagoona"><img src="./img/github.svg" alt="github view"><span>Git</span></a></li>
+                <li class="inline-flex"><a class="work__link" href="https://andrew-web.ru/lagoona/?utm_company=portfolio"><img src="./img/website.svg" alt="website view" class="w-6"><span>Site</span></a></li>
+              </ul>
+            <p class="work__description">Pixel Perfect верстка макета для сети отелей Lagoona</p>
+            <ul class="work__technology-list">
+              <li><img class="work__technology-image" src="./img/html.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/css.svg" alt="html 5"></li>
+            </ul>
+          </div>
+        </li>
+        <li class="work__item">
+          <div class="work__preview bg-[url('../img/projects/rollete.jpeg')]"></div>
+          <div class="work__content-wrapper">
+            <h2 class="work__headline">🎰 Колесо фортуны</h2>
+              <ul class="work__view-list">
+                <li class="inline-flex"><div class="work__link cursor-not-allowed" href="#"><img src="./img/NDA.svg" alt="Nuclear Decommissioning Authority" class="w-6"><span>Nuclear Decommissioning Authority</span></div></li>
+              </ul>
+            <p class="work__description">Лендинг с колесом фортуны для генерации бонусов для пользователя</p>
+            <ul class="work__technology-list">
+              <li><img class="work__technology-image" src="./img/html.svg" alt="html 5"></li>
+              <li><img class="work__technology-image" src="./img/css.svg" alt="css 3"></li>
+              <li><img class="work__technology-image" src="./img/js.svg" alt="JavaScript"></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
