@@ -664,6 +664,10 @@ video {
   background-image: url('../img/projects/crm.jpeg');
 }
 
+.bg-\[url\(\'\.\.\/img\/projects\/doc_in_moscow\.jpeg\'\)\] {
+  background-image: url('../img/projects/doc_in_moscow.jpeg');
+}
+
 .bg-\[url\(\'\.\.\/img\/projects\/game\.jpeg\'\)\] {
   background-image: url('../img/projects/game.jpeg');
 }
