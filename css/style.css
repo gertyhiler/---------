@@ -919,7 +919,7 @@ video {
   }
 }
 
-.work__link {
+.work__link:not(.cursor-not-allowed) {
   display: inline-flex;
   gap: 0.5rem;
   border-radius: 1rem;
@@ -938,7 +938,7 @@ video {
   transition-duration: 150ms;
 }
 
-.work__link:hover {
+.work__link:not(.cursor-not-allowed):hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
