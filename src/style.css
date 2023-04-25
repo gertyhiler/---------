@@ -39,7 +39,11 @@
 }
 
 .work__link:not(.cursor-not-allowed) {
-  @apply inline-flex gap-2 py-1 pr-2 pl-1 bg-gray-200 border-2 border-solid border-gray-400 rounded-2xl hover:scale-110 transition-transform
+  @apply hover:scale-110
+}
+
+.work__link {
+  @apply inline-flex gap-2 py-1 pr-2 pl-1 bg-gray-200 border-2 border-solid border-gray-400 rounded-2xl transition-transform
 }
 
 .work__technology-image {
