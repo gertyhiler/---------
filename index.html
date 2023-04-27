@@ -98,6 +98,7 @@
   <meta property="og:type" content="website">
   <title>Портфолио Коробка Андрей</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/animate.min.css">
   <link rel="stylesheet" href="./css/style.css">
   <style>
     html {
@@ -121,9 +122,9 @@
       <img src="https://mc.yandex.ru/watch/86681754" style="position:absolute; left:-9999px;" alt="" />
     </div>
   </noscript>
-  <header class="rounded-b-xl bg-slate-200 dark:bg-slate-500 py-10">
-    <div class="continer flex justify-center items-center">
-      <div class="flex gap-3">
+  <header class="header wow fadeInDown">
+    <div class="header__wrapper">
+      <div class="header-content">
         <img src="./img/36032455.jpeg" alt="Фото профиля" class="rounded-full h-24">
         <div>
           <h1 class=" text-2xl xl:text-3xl text-gray-800 dark:text-gray-300">Андрей Коробка</h1>
@@ -148,11 +149,12 @@
           </div>
         </div>
       </div>
+      <nav class="navigation"><a class="navigation__link navigation__link_active" href="/">Проекты</a> <a class="navigation__link" href="/about/">Обо мне</a></nav>
     </div>
   </header>
   <main>
     <section class="work">
-      <ul class="work__list">
+      <ul class="work__list animated" >
         <li class="work__item">
           <div class="work__preview bg-[url('../img/projects/pomodoro.jpeg')]">
 
@@ -396,5 +398,13 @@
       </ul>
     </section>
   </main>
+  <script src="./js/wow.min.js"></script>
+  <script>
+    document.querySelectorAll('.work__item').forEach((item, index) => {
+      item.classList.add('wow', 'fadeInUp')
+      item.setAttribute('data-wow-delay', `0.1s`)
+    })
+    new WOW().init();
+  </script>
 </body>
 </html>
